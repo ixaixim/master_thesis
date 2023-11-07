@@ -34,4 +34,13 @@ We show that it is possible to apply Domain Adaptation (DA) to study organic sem
 ## Results
 Below, we present a comparative analysis of the performance between a standard GNN and a GNN enhance by DA techniques (DA GNN). Each network has been subjected to training on datasets comprising pentacene and tetracene samples, with the objective of generalizing their predictive capabilities to the DNTT compound. The results distinctly indicate that the application of the DA algorithm significantly enhances the accuracy of the predictions rendered by the GNN.
 
-![text](img/da_result.svg)
+<div style="display: flex; justify-content: space-around;">
+<figure>
+    <img src="img/vanilla_result.png" width="200" />
+    <figcaption style="font-size: 0.8em; text-align: center;">Results of vanilla GNN.</figcaption>
+</figure>
+<figure>
+    <img src="img/da_result.png" width="200" />
+    <figcaption style="font-size: 0.8em; text-align: center;">Results of DA GNN.</figcaption>
+</figure>
+</div>
