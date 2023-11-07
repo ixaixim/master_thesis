@@ -11,6 +11,7 @@ Advisor: Kouroudis Ioannis, M.Sc.
 </figure>
 </div>
 
+
 ## Description 
 Simulations aim to accurately reproduce the physics of materials, providing detailed molecular properties. However, they are noted to be computationally expensive. On the other hand, machine learning, can predict molecular properties given a training dataset, offering much faster results than traditional simulations but requiring ground truth data derived from those simulations for training.
 
@@ -33,13 +34,4 @@ We show that it is possible to apply Domain Adaptation (DA) to study organic sem
 ## Results
 Below, we present a comparative analysis of the performance between a standard GNN and a GNN enhance by DA techniques (DA GNN). Each network has been subjected to training on datasets comprising pentacene and tetracene samples, with the objective of generalizing their predictive capabilities to the DNTT compound. The results distinctly indicate that the application of the DA algorithm significantly enhances the accuracy of the predictions rendered by the GNN.
 
-<div style="display: flex; justify-content: space-around;">
-<figure>
-    <img src="img/vanilla_result.png" width="200" />
-    <figcaption style="font-size: 0.8em; text-align: center;">Results of vanilla GNN.</figcaption>
-</figure>
-<figure>
-    <img src="img/da_result.png" width="200" />
-    <figcaption style="font-size: 0.8em; text-align: center;">Results of DA GNN.</figcaption>
-</figure>
-</div>
+![text](img/da_result.svg)
